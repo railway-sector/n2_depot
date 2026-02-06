@@ -355,7 +355,17 @@ const Chart = () => {
 
   return (
     <>
-      <div slot="panel-end">
+      <div
+        slot="panel-end"
+        style={{
+          borderStyle: "solid",
+          borderRightWidth: 5,
+          borderLeftWidth: 5,
+          borderBottomWidth: 5,
+          // borderTopWidth: 5,
+          borderColor: "#555555",
+        }}
+      >
         <div
           style={{
             width: "23vw",
